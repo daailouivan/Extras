@@ -1,20 +1,20 @@
 {
-    "version": "0.3.0",
+    "version": "0.6.0",
     "description": "Simple, Convenient, Markdown defined task runner.",
     "homepage": "https://xcfile.dev/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/joerdav/xc/releases/download/v0.3.0/xc_0.3.0_windows_amd64.exe#/xc.exe",
-            "hash": "e05798a973ee0e3297c9d02dcfb7ce866e1e1e1b8e9f735ed39af47acf084ee9"
+            "url": "https://github.com/joerdav/xc/releases/download/v0.6.0/xc_0.6.0_windows_amd64.exe#/xc.exe",
+            "hash": "2243f581339d24867b44be47f6c2f4d88ccd09614a07e6a229d2e43257266503"
         },
         "32bit": {
-            "url": "https://github.com/joerdav/xc/releases/download/v0.3.0/xc_0.3.0_windows_386.exe#/xc.exe",
-            "hash": "f1eac51e3c185947fd64fa6deba72744c3d92a3535a1a0b3a6c60e2c93c98f5d"
+            "url": "https://github.com/joerdav/xc/releases/download/v0.6.0/xc_0.6.0_windows_386.exe#/xc.exe",
+            "hash": "d8746544dfe8704b5794587e9d5ebc4a62ffbf18572fcc55636b52c4e5444651"
         },
         "arm64": {
-            "url": "https://github.com/joerdav/xc/releases/download/v0.3.0/xc_0.3.0_windows_arm64.exe#/xc.exe",
-            "hash": "bbd6a0657635a92c782ce2f9084629d803d411e22c4a107bd1343fcc2226f161"
+            "url": "https://github.com/joerdav/xc/releases/download/v0.6.0/xc_0.6.0_windows_arm64.exe#/xc.exe",
+            "hash": "2327b41c07ac3fb0d0eb0b1ac8f2ead0bf0c518e8eb575deacd7e1b029722ee8"
         }
     },
     "bin": "xc.exe",

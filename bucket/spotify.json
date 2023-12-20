@@ -1,5 +1,5 @@
 {
-    "version": "1.2.9.743.g85d9593d",
+    "version": "1.2.26.1187.g36b715a1",
     "description": "A digital music service that gives you access to millions of songs.",
     "homepage": "https://www.spotify.com/",
     "license": {
@@ -7,7 +7,7 @@
         "url": "https://www.spotify.com/legal/end-user-agreement/"
     },
     "url": "https://download.scdn.co/SpotifyFullSetup.exe",
-    "hash": "1b008a341397a43cc38ad20cbb3bb2f52d7ba91da0428f309c299da76bca20b3",
+    "hash": "2d619f2f890fe3f04b1d426c355b20be318a18106d09efb80a31276c0b8a8ca1",
     "installer": {
         "script": [
             "Start-Process -Wait \"$dir\\$fname\" -ArgumentList '/extract', \"`\"$dir`\"\"",
@@ -15,7 +15,7 @@
             "Remove-Item -ErrorAction Ignore -Recurse \"$env:LOCALAPPDATA\\Spotify\\Update\" | Out-Null",
             "$updateFile = New-Item -Path \"$env:LOCALAPPDATA\\Spotify\" -Name Update -ItemType File -Value \"Disabled by Scoop\" -Force",
             "$updatefile.Attributes = 'ReadOnly', 'System'",
-            "Remove-Item \"$dir\\$fname\", \"$dir\\SpotifyMigrator.exe\""
+            "Remove-Item \"$dir\\$fname\", \"$dir\\SpotifyMigrator.exe\" -ErrorAction SilentlyContinue"
         ]
     },
     "shortcuts": [

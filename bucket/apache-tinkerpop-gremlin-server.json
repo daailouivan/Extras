@@ -1,11 +1,11 @@
 {
-    "version": "3.6.2",
+    "version": "3.7.1",
     "description": "Remotely execute Gremlin against one or more Graph instances hosted within it.",
     "homepage": "https://tinkerpop.apache.org",
     "license": "Apache-2.0",
-    "url": "https://www.apache.org/dist/tinkerpop/3.6.2/apache-tinkerpop-gremlin-server-3.6.2-bin.zip",
-    "hash": "sha512:12bef51910f5e4f7f89152b086b3ba121d34fd1b9e520b0d2c11ec513fe3fa7a4f5ca3e49f1c8aaf7c785487c0df2e3fbfc246d82e3983b67d8c92132953f8ee",
-    "extract_dir": "apache-tinkerpop-gremlin-server-3.6.2",
+    "url": "https://www.apache.org/dist/tinkerpop/3.7.1/apache-tinkerpop-gremlin-server-3.7.1-bin.zip",
+    "hash": "sha512:e974fb6e1ec074666366cece54db078bd2ca8969791d8f604702b2d9df89b64417c81e8c6ded589dc5a3e43380b2522dcb10134a5ff08b99867fbe55c6afeb6c",
+    "extract_dir": "apache-tinkerpop-gremlin-server-3.7.1",
     "pre_install": [
         "$cont = @(",
         "    '@echo off'",

@@ -1,5 +1,5 @@
 {
-    "version": "5.0.5",
+    "version": "5.4.3",
     "description": "The Fastest copy/backup software.",
     "homepage": "https://fastcopy.jp/",
     "license": {
@@ -10,10 +10,10 @@
         "If an error occurs when updating or uninstalling, execute the following command then retry:",
         "`Stop-Process -Name 'explorer'`"
     ],
-    "url": "https://fastcopy.jp/archive/FastCopy5.0.5_installer.exe",
-    "hash": "e80f5d11afd51e824a6c979f5c4c23e5efde3e7d61d179dd4d5ec38d96d972d8",
+    "url": "https://fastcopy.jp/archive/FastCopy5.4.3_installer.exe",
+    "hash": "b309e5c857e950d72228313ca991134c5a9c7fc723e7a4e9c0e34b4027e6f939",
     "pre_install": [
-        "Start-Process \"$dir\\$fname\" -Args @('/SILENT', \"/DIR=$dir\", '/NOPROG', '/NODESK') -Wait",
+        "Start-Process \"$dir\\$fname\" -Args @('/SILENT', \"/DIR=\"\"$dir\"\"\", '/NOPROG', '/NODESK') -Wait",
         "Copy-Item \"$persist_dir\\FastCopy.log\", \"$persist_dir\\FastCopy2.ini\", \"$persist_dir\\Log\" -Destination \"$dir\" -Force -Recurse -ErrorAction SilentlyContinue",
         "Remove-Item \"$dir\\$fname\""
     ],
@@ -33,7 +33,7 @@
         ]
     ],
     "pre_uninstall": [
-        "ensure \"$persist_dir\\Log\"",
+        "ensure \"$persist_dir\\Log\" | Out-Null",
         "Copy-Item \"$dir\\FastCopy.log\", \"$dir\\FastCopy2.ini\", \"$dir\\Log\" -Destination \"$persist_dir\" -Force -Recurse -ErrorAction SilentlyContinue",
         "Start-Process \"$dir\\setup.exe\" -Args @('/SILENT', '/r') -Wait"
     ],

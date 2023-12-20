@@ -1,12 +1,12 @@
 {
-    "version": "1.36.3",
+    "version": "1.41.0",
     "description": "An interactive tool for querying, optimizing, and analyzing MongoDB data",
     "homepage": "https://www.mongodb.com/products/compass",
     "license": "SSPL-1.0",
     "architecture": {
         "64bit": {
-            "url": "https://downloads.mongodb.com/compass/mongodb-compass-1.36.3-win32-x64.zip",
-            "hash": "952b06e09e62f8cf669159db629491664217d3d4974ec035e320e44b02377d24"
+            "url": "https://downloads.mongodb.com/compass/mongodb-compass-1.41.0-win32-x64.zip",
+            "hash": "a84b0d8e905c6cc0d3e8f1b372f67e8e2f35b2bdb15873aff0ba054845896d94"
         }
     },
     "shortcuts": [

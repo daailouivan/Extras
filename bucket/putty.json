@@ -1,20 +1,20 @@
 {
-    "version": "0.78",
+    "version": "0.80",
     "description": "A free implementation of SSH and Telnet, along with an xterm terminal emulator.",
     "homepage": "https://www.chiark.greenend.org.uk/~sgtatham/putty/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://the.earth.li/~sgtatham/putty/0.78/w64/putty.zip",
-            "hash": "sha512:52c8ae11197b71a27d1805d180c1b6702cf7feca46ce9f41e1666beea8d44dc32531567f4dee62500646a768fa7c9a1bfea8455cfeda87295afe3ca5ff6b2536"
+            "url": "https://the.earth.li/~sgtatham/putty/0.80/w64/putty.zip",
+            "hash": "sha512:99019c93a411a9d4c605c958411d09093f9d5550b000a8f60b771a6349fb257a7f7308cc608194d6ec898ce3440109cfb0f8f1464e14c7e5d66bf4633a18f100"
         },
         "32bit": {
-            "url": "https://the.earth.li/~sgtatham/putty/0.78/w32/putty.zip",
-            "hash": "sha512:b72cdef83e26a50a0d2cd97738a997944bd649c68072c405b50738116547a84651cb7075be97af923a9bd4d812b0e9c9e172c73ad4fa41e2b9d7997974f5606e"
+            "url": "https://the.earth.li/~sgtatham/putty/0.80/w32/putty.zip",
+            "hash": "sha512:46a1d573f8acdd7d41f35327c368ba112ec4f5868c9cb475c45a2fe6a49d0bffa66f248861b2a61deae8dee2fd771cdefd465936d5871a52f904942ae98fb346"
         },
         "arm64": {
-            "url": "https://the.earth.li/~sgtatham/putty/0.78/wa64/putty.zip",
-            "hash": "sha512:64602ddf7c73c116145776f323cb997cb6aecac1eb6379fdecca6d15ec4dd8cef172ec9cb8ea6d968d81e820f7a454c695cdac1752ad63f17c4b3a092e5f58d3"
+            "url": "https://the.earth.li/~sgtatham/putty/0.80/wa64/putty.zip",
+            "hash": "sha512:10a4fbe972f20c515a965b007ab8d1a0f3fa3eba1856308a10ced050bb352d11a9be3f26568272d66e480c39b1259b3a0d062f0063c7331d38c0e72eacfc6010"
         }
     },
     "bin": [

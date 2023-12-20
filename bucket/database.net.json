@@ -1,5 +1,5 @@
 {
-    "version": "35.2.8495.1",
+    "version": "35.7.8735.1",
     "description": "Innovative, powerful and intuitive multiple database management tool",
     "homepage": "https://fishcodelib.com/Database.htm",
     "license": {
@@ -7,7 +7,7 @@
         "url": "https://fishcodelib.com/EULA.htm"
     },
     "url": "https://fishcodelib.com/files/DatabaseNet4.zip",
-    "hash": "cceab9df73aa970b91785e642864987664c4823d7f8f289b36f9dd1a740dfada",
+    "hash": "016d5016fa621291327a4463b55fd2049fee8de955a25aa49cd8fe7140dfa0e4",
     "bin": [
         "Database4.exe",
         [

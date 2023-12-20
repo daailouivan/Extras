@@ -1,16 +1,16 @@
 {
-    "version": "3.3.7.2979",
+    "version": "3.4.3.3337",
     "description": "A flexible virtual private network (VPN) solution to secure data communications.",
     "homepage": "https://openvpn.net",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://swupdate.openvpn.net/downloads/connect/openvpn-connect-3.3.7.2979_signed.msi",
-            "hash": "b2f8d18fb2fa633dcbd62c6652158dbb3aa81345e014b5c8b838b292074b46a9"
+            "url": "https://swupdate.openvpn.net/downloads/connect/openvpn-connect-3.4.3.3337_signed.msi",
+            "hash": "7bf942de0db9d02bcce88420db1dea26d0f0be62bf68b463b8edfbf0d9b7d1ad"
         },
         "32bit": {
-            "url": "https://swupdate.openvpn.net/downloads/connect/openvpn-connect-3.3.7.2979_signed_x86.msi",
-            "hash": "2d6a428d211de3d2d4fb657ad770a7bd289d878c5d7c7ed32ca3fcba096dc433"
+            "url": "https://swupdate.openvpn.net/downloads/connect/openvpn-connect-3.4.3.3337_signed_x86.msi",
+            "hash": "d03beff03bdb9313872be4b357829a9e4956889aa80949bab6ee22cde58ad581"
         }
     },
     "extract_dir": "OpenVPN Connect",

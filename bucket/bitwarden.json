@@ -1,10 +1,10 @@
 {
-    "version": "2023.3.2",
+    "version": "2023.12.0",
     "description": "Password management solutions for individuals, teams, and business organizations",
     "homepage": "https://bitwarden.com",
     "license": "GPL-3.0-or-later",
-    "url": "https://github.com/bitwarden/clients/releases/download/desktop-v2023.3.2/Bitwarden-Portable-2023.3.2.exe",
-    "hash": "2d21cedf395dcf9e21d4fed16de754b5cd2836ad289d90bfa6043831e7947105",
+    "url": "https://github.com/bitwarden/clients/releases/download/desktop-v2023.12.0/Bitwarden-Portable-2023.12.0.exe",
+    "hash": "1db51b1eed42d80f563e662a1b409cfc795b12be1011134c95b3b9b35d883201",
     "pre_install": [
         "Rename-Item \"$dir\\Bitwarden-Portable-$version.exe\" 'Bitwarden.exe'",
         "# copy config from non-portable version",
@@ -22,7 +22,7 @@
     ],
     "persist": "bitwarden-appdata",
     "checkver": {
-        "url": "https://api.github.com/repos/bitwarden/clients/releases",
+        "url": "https://api.github.com/repositories/53538899/releases",
         "regex": "tag/desktop-v([\\d.]+)"
     },
     "autoupdate": {

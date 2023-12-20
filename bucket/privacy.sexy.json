@@ -1,16 +1,18 @@
 {
-    "version": "0.11.4",
-    "homepage": "https://privacy.sexy/",
+    "version": "0.12.9",
     "description": "Enforce privacy & security on Windows.",
+    "homepage": "https://privacy.sexy/",
     "license": "GPL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/undergroundwires/privacy.sexy/releases/download/0.11.4/privacy.sexy-Setup-0.11.4.exe#/dl.7z",
-            "hash": "sha512:6271cb2471f4c0f92d1ae3a079816e5b45dc6f959f02abf566b101096678d69621372ccc1ccef0a2f549242ddb10b2385e0948410f39c408edfc7960a80efbec"
+            "url": "https://github.com/undergroundwires/privacy.sexy/releases/download/0.12.9/privacy.sexy-Setup-0.12.9.exe#/dl.7z",
+            "hash": "sha512:813ccc900c2269744c49f50357c9848f8af8fac332c7190ec3224aa60df495fa374e12472e1e90b036b9863e29e3d7cfdd886c08f5e8dd3a6d4ca35ce43b5d70"
         }
     },
-    "extract_dir": "$PLUGINSDIR",
-    "pre_install": "Expand-7zipArchive \"$dir\\app-64.7z\" \"$dir\" -Removal",
+    "pre_install": [
+        "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+        "Remove-Item \"$dir\\`$*\" -Force -Recurse"
+    ],
     "bin": "privacy.sexy.exe",
     "shortcuts": [
         [

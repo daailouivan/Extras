@@ -1,12 +1,12 @@
 {
-    "version": "6.6.1",
+    "version": "6.8.0",
     "description": "Switch your default playback devices and/or recording devices using simple hotkeys",
     "homepage": "https://soundswitch.aaflalo.me/",
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Belphemur/SoundSwitch/releases/download/v6.6.1/SoundSwitch_v6.6.1.0_Release_Installer.exe",
-            "hash": "6bd15562ebaa2ba7236fce0681349dd43dfc5492f24417257fb363a87e101ab4"
+            "url": "https://github.com/Belphemur/SoundSwitch/releases/download/v6.8.0/SoundSwitch_v6.8.0.0_Release_Installer.exe",
+            "hash": "837b0e974500d20e75600187bee6f5afa51ec26df41ed148f62e3ca7fca20bb5"
         }
     },
     "innosetup": true,
@@ -17,7 +17,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://api.github.com/repos/Belphemur/SoundSwitch/releases/latest",
+        "url": "https://api.github.com/repositories/40604558/releases/latest",
         "jsonpath": "$.assets..browser_download_url",
         "regex": "v([\\d.]+)/SoundSwitch_v([\\d.]+)_Release_Installer\\.exe"
     },

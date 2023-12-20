@@ -1,5 +1,5 @@
 {
-    "version": "1.22.0",
+    "version": "1.26.0",
     "description": "3D character maker",
     "homepage": "https://vroid.com/en/studio",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download.vroid.com/dist/010vpfHq4n/VRoidStudio-v1.22.0-win.exe",
-            "hash": "8ac2fc50fe715f4259b07524d86f51f565ef8704390a38e012b98e202ea5b789"
+            "url": "https://download.vroid.com/dist/nyRtST8DUd/VRoidStudio-v1.26.0-win.exe",
+            "hash": "d324c81ab9a5730ae171b5cdb085612ddbab0d916391316b671366764cc55379"
         }
     },
     "innosetup": true,

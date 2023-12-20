@@ -1,5 +1,5 @@
 {
-    "version": "2.0.2",
+    "version": "2.0.10",
     "description": "The ultimate automation scripting language for Windows.",
     "homepage": "https://www.autohotkey.com/",
     "license": "GPL-2.0-or-later",
@@ -10,8 +10,8 @@
         "  - 'autohotkey /script \"$dir\\UX\\ui-uninstall.ahk\"'",
         "See also: https://github.com/ScoopInstaller/Extras/issues/10066"
     ],
-    "url": "https://github.com/AutoHotkey/AutoHotkey/releases/download/v2.0.2/AutoHotkey_2.0.2.zip",
-    "hash": "8f28c38a0b2af6ac96c4a7e1a2c0f296b2410f845d9aca8487843a1edac4271d",
+    "url": "https://www.autohotkey.com/download/2.0/AutoHotkey_2.0.10.zip",
+    "hash": "0759be5242a162707b9738226af1a163a15fc6e0105dd88765a52e056ac136c4",
     "extract_to": "installer",
     "installer": {
         "script": [
@@ -25,7 +25,7 @@
         "# Persistence",
         "if (Test-Path \"$persist_dir\\installed-files.csv\") {",
         "    Get-Content \"$persist_dir\\installed-files.csv\" | Add-Content \"$dir\\UX\\installed-files.csv\"",
-        "    Copy-Item \"$persist_dir\\installed-files\\*\" \"$dir\" -Recurse",
+        "    Copy-Item \"$persist_dir\\installed-files\\*\" \"$dir\" -Recurse -ErrorAction SilentlyContinue",
         "    # Remove old files",
         "    Remove-Item \"$persist_dir\\installed-files.csv\" -Force",
         "    Remove-Item \"$persist_dir\\installed-files\" -Force -Recurse",
@@ -78,9 +78,9 @@
         "regex": "([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/AutoHotkey/AutoHotkey/releases/download/v$version/AutoHotkey_$version.zip",
+        "url": "https://www.autohotkey.com/download/$majorVersion.$minorVersion/AutoHotkey_$version.zip",
         "hash": {
-            "url": "https://www.autohotkey.com/download/2.0/AutoHotkey_$version.zip.sha256"
+            "url": "https://www.autohotkey.com/download/$majorVersion.$minorVersion/AutoHotkey_$version.zip.sha256"
         }
     }
 }

@@ -1,12 +1,12 @@
 {
-    "version": "0.6.1",
+    "version": "0.6.4",
     "description": "A cross-platform reimplementation of Notepad++",
     "homepage": "https://github.com/dail8859/NotepadNext",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dail8859/NotepadNext/releases/download/v0.6.1/NotepadNext-v0.6.1-win64.zip",
-            "hash": "a089ace57c70e4fe6d351468eb244900671329656f9ae69466b77c97479058d2"
+            "url": "https://github.com/dail8859/NotepadNext/releases/download/v0.6.4/NotepadNext-v0.6.4-win64.zip",
+            "hash": "d08eede315be95356675516218bf6248b472e4ec4dab5af3680effe830b0fedf"
         }
     },
     "shortcuts": [

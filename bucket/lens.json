@@ -1,13 +1,13 @@
 {
-    "version": "2023.4.141316-latest",
+    "version": "2023.12.80831-latest",
     "description": "IDE for Kubernetes clusters",
     "homepage": "https://k8slens.dev",
     "license": {
         "identifier": "Proprietary",
         "url": "https://k8slens.dev/licenses/eula"
     },
-    "url": "https://api.k8slens.dev/binaries/Lens%20Setup%202023.4.141316-latest.exe#/dl.7z",
-    "hash": "sha512:579e46224eb7e160dd7de2eb8779e4bcb8c2d7a8284f9b7a2cc60e753749db9c140b402ed5eeabb3e018c44c400c71b38953021eb1abc2b1d786a84fd04d45f6",
+    "url": "https://api.k8slens.dev/binaries/Lens%20Setup%202023.12.80831-latest.exe#/dl.7z",
+    "hash": "b623055aec6c7a38e96dc1809e0a66c827e4107b01290d59a1f6fcfa5cb9c730",
     "architecture": {
         "64bit": {
             "pre_install": [

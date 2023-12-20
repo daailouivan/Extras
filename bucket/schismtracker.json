@@ -1,16 +1,16 @@
 {
-    "version": "20221201",
+    "version": "20231029",
     "description": "An oldschool sample-based music composition tool",
     "homepage": "http://schismtracker.org",
     "license": "GPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/schismtracker/schismtracker/releases/download/20221201/schismtracker-20221201-win64.zip",
-            "hash": "9424558d0a3ac5b9d9310238b59e8269298959295493f9ce21d669dd4821aa70"
+            "url": "https://github.com/schismtracker/schismtracker/releases/download/20231029/schismtracker-20231029-win64.zip",
+            "hash": "d13146ac25c1198abec29018086c26a6adf1fa9f6cbe13823049637382502998"
         },
         "32bit": {
-            "url": "https://github.com/schismtracker/schismtracker/releases/download/20221201/schismtracker-20221201-win32.zip",
-            "hash": "3a64b39ed5c46aab10e3a9d435787f2080df3b3ceede8098b360cf13678137d0"
+            "url": "https://github.com/schismtracker/schismtracker/releases/download/20231029/schismtracker-20231029-win32.zip",
+            "hash": "b7c01c9bab38cd4359e93da4a7147b7f277a437688847562f591751ff586d4b9"
         }
     },
     "bin": "schismtracker.exe",

@@ -1,19 +1,19 @@
 {
-    "version": "7.3.3",
+    "version": "7.5.1",
     "description": "Office suite that combines text, spreadsheet and presentation editors allowing to create, view and edit documents.",
     "homepage": "https://www.onlyoffice.com/apps.aspx",
     "license": "AGPL-3.0-only",
     "suggest": {
-        "Microsoft Visual C++ Redistibutable 2015": "extras/vcredist2022"
+        "vcredist": "extras/vcredist2022"
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v7.3.3/DesktopEditors_x64.exe",
-            "hash": "141bcfd86fd7802813aec3ba7a76296a5b40ff5aa8c4af99005a956a4f725d03"
+            "url": "https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v7.5.1/DesktopEditors_x64.exe",
+            "hash": "2b7ce692031d76b6f3221f399036a77d9e6415d2c9c67aaf138ebbb8ab070ca0"
         },
         "32bit": {
-            "url": "https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v7.3.3/DesktopEditors_x86.exe",
-            "hash": "20c71cf8099e89f0f013b9c062fbb7bcd94a9a95ee9761acbd7dafb729896d5c"
+            "url": "https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v7.5.1/DesktopEditors_x86.exe",
+            "hash": "bc68545dd588d996a3e5ed025085b5099d4df81042c6edf0e3596d1abb561a3c"
         }
     },
     "innosetup": true,
@@ -26,7 +26,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://api.github.com/repos/ONLYOFFICE/DesktopEditors/releases",
+        "url": "https://api.github.com/repositories/69867298/releases",
         "regex": "v([\\d.]+)/DesktopEditors_x64\\.exe"
     },
     "autoupdate": {

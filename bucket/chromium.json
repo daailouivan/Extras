@@ -1,13 +1,13 @@
 {
     "##": "Check chromium.woolyss.com for different versions of Chromium releases.",
-    "version": "112.0.5615.138-r1109224",
+    "version": "120.0.6099.110-r1217362",
     "description": "Browser aiming for safer, faster, and more stable way for all users to experience the web.",
     "homepage": "https://www.chromium.org",
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Hibbiki/chromium-win64/releases/download/v112.0.5615.138-r1109224/chrome.sync.7z",
-            "hash": "sha1:38c53db625954c3fdb6c592c443c4b2ec992855e"
+            "url": "https://github.com/Hibbiki/chromium-win64/releases/download/v120.0.6099.110-r1217362/chrome.sync.7z",
+            "hash": "sha1:0d86b3ff57ea6a49ee511c8948df8de0288b91fc"
         }
     },
     "extract_dir": "Chrome-bin",
@@ -33,7 +33,7 @@
     ],
     "persist": "User Data",
     "checkver": {
-        "url": "https://api.github.com/repos/Hibbiki/chromium-win64/tags",
+        "url": "https://api.github.com/repositories/220217660/tags",
         "jsonpath": "$..name",
         "regex": "v([\\d.\\-r]+)"
     },

@@ -1,15 +1,15 @@
 {
-    "version": "1.0.32",
+    "version": "1.0.34",
     "description": "'wabbit' is a suite of tools for WebAssembly",
     "homepage": "https://github.com/WebAssembly/wabt",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/WebAssembly/wabt/releases/download/1.0.32/wabt-1.0.32-windows.tar.gz",
-            "hash": "85595becc62c389edd1706369a1e28022183fb18306e38687d2511a3aa9acd83"
+            "url": "https://github.com/WebAssembly/wabt/releases/download/1.0.34/wabt-1.0.34-windows.tar.gz",
+            "hash": "5c1ad1ddd4ba8f11ab9704057bab185cd77b937806de6724187e6cac0b75c788"
         }
     },
-    "extract_dir": "wabt-1.0.32\\bin",
+    "extract_dir": "wabt-1.0.34\\bin",
     "bin": [
         "spectest-interp.exe",
         "wasm2c.exe",
@@ -17,7 +17,7 @@
         "wasm-decompile.exe",
         "wasm-interp.exe",
         "wasm-objdump.exe",
-        "wasm-opcodecnt.exe",
+        "wasm-stats.exe",
         "wasm-strip.exe",
         "wasm-validate.exe",
         "wast2json.exe",

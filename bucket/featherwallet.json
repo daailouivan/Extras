@@ -1,5 +1,5 @@
 {
-    "version": "2.4.5",
+    "version": "2.6.1",
     "description": "A Monero SPV Wallet",
     "homepage": "https://featherwallet.org/",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://featherwallet.org/files/releases/win/feather-2.4.5-win.zip",
-            "hash": "826649fa6f3403412f520c44303907364f06f781ca53787231ad792af99992a8"
+            "url": "https://featherwallet.org/files/releases/win/feather-2.6.1-win.zip",
+            "hash": "dc5d7520ef9f8575a23eb4d1cca448bfa297f91fac45100f5ad6b54db633a79a"
         }
     },
     "pre_install": [

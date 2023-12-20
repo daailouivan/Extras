@@ -1,10 +1,10 @@
 {
-    "version": "1.7.4",
+    "version": "1.8.3",
     "description": "Tool for writing an Raspberry Pi OS images to SD cards.",
     "homepage": "https://www.raspberrypi.org/software",
     "license": "Apache-2.0",
-    "url": "https://github.com/raspberrypi/rpi-imager/releases/download/v1.7.4/imager-1.7.4.exe#/dl.7z",
-    "hash": "44e6f70412f0430a372c04d3bd60162d175600ab4da38da8efe20d9be3f37fac",
+    "url": "https://github.com/raspberrypi/rpi-imager/releases/download/v1.8.3/imager-1.8.3.exe#/dl.7z",
+    "hash": "ab1638727335cf9373ad6faa30c40b39963ccc98e3e61556999ff2b0fd8f9909",
     "pre_install": "Remove-Item \"$dir\\`$*\", \"$dir\\uninst*\" -Recurse",
     "bin": "rpi-imager.exe",
     "shortcuts": [
@@ -13,6 +13,7 @@
             "Raspberry PI Imager"
         ]
     ],
+    "notes": "To opt out of telemetry, run: Set-ItemProperty 'HKCU:/Software/Raspberry Pi/Imager' telemetry 0",
     "checkver": {
         "github": "https://github.com/raspberrypi/rpi-imager"
     },

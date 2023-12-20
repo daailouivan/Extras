@@ -1,12 +1,12 @@
 {
-    "version": "1.14.0",
+    "version": "1.15.1",
     "description": "Break time reminder",
     "homepage": "https://hovancik.net/stretchly/",
     "license": "BSD-2-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/hovancik/stretchly/releases/download/v1.14.0/stretchly-1.14.0-win.7z",
-            "hash": "a43a89157c402ee7ab964a14fdc5a0e2496f173f048ea2e3d30df90b96d1bcbd"
+            "url": "https://github.com/hovancik/stretchly/releases/download/v1.15.1/stretchly-1.15.1-win.7z",
+            "hash": "622ff75c1a094deab0cb2425cb2126bc20b5ebf82d2240c67731ed99083b7beb"
         }
     },
     "bin": "stretchly.exe",

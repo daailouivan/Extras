@@ -1,12 +1,12 @@
 {
-    "version": "10.52",
+    "version": "11.02",
     "description": "Total Commander is a Shareware file manager for Windows® 95/98/ME/NT/2000/XP/Vista/7/8/8.1/10, and Windows® 3.1.",
     "homepage": "https://www.ghisler.com",
     "license": "Shareware",
     "architecture": {
         "64bit": {
-            "url": "http://totalcommander.ch/win/tcmd1052x64.exe",
-            "hash": "3cfcbfe6dff0eb24726183595f771f2a8acb0534e2240bef75c0800546a575eb",
+            "url": "http://totalcommander.ch/win/tcmd1102x64.exe",
+            "hash": "07cdf2d51cb04ee3148ae3399978fc609829908b538c49cabf1953015857987b",
             "bin": "TOTALCMD64.EXE",
             "shortcuts": [
                 [
@@ -16,8 +16,8 @@
             ]
         },
         "32bit": {
-            "url": "http://totalcommander.ch/win/tcmd1052x32.exe",
-            "hash": "2da4fb00a33f2977ae14b4a1f833b1afaaddcde0743d8e5d74dcfefc526e3bb8",
+            "url": "http://totalcommander.ch/win/tcmd1102x32.exe",
+            "hash": "25c4706ef4519664e5101a8bdc3aff813b6dd76f05883279608667e25752df36",
             "bin": "TOTALCMD.EXE",
             "shortcuts": [
                 [

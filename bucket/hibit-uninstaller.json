@@ -1,10 +1,10 @@
 {
-    "version": "3.1.10",
+    "version": "3.1.70",
     "description": "Completely uninstall stubborn software, windows apps & browser extension.",
     "homepage": "https://www.hibitsoft.ir/Uninstaller.html",
     "license": "Freeware",
-    "url": "https://www.hibitsoft.ir/HiBitUninstaller/HiBitUninstaller-Portable-3.1.10.zip",
-    "hash": "49f9728e889fc94047cd051a8eebfee20bf6553d747ad94d944a0ba69bcc2eb3",
+    "url": "https://www.hibitsoft.ir/HiBitUninstaller/HiBitUninstaller-Portable-3.1.70.zip",
+    "hash": "d7c1f48da56d7f4165cd07a8a2bcb933e06f153cf6c3eda434628532bda1456f",
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\\HiBitUninstaller\")) {",
         "    ensure \"$dir\\HiBitUninstaller\"",

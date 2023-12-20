@@ -1,5 +1,5 @@
 {
-    "version": "112.0.1",
+    "version": "121.0",
     "description": "EME-free version of the Firefox browser, with DRM-support disabled by default.",
     "homepage": "https://www.mozilla.org/firefox/",
     "license": "MPL-2.0",
@@ -11,12 +11,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://archive.mozilla.org/pub/firefox/releases/112.0.1/win64-EME-free/en-US/Firefox%20Setup%20112.0.1.exe#/dl.7z",
-            "hash": "sha512:2ea06e4b33775ce5a9b03ccd011d0f8995a4e88272e65c8cbb0921c5d5a7df410b5bbcdd64c2f70d4336ccbc9e77329626c068c3afe8df352110f97e4fe32c33"
+            "url": "https://archive.mozilla.org/pub/firefox/releases/121.0/win64-EME-free/en-US/Firefox%20Setup%20121.0.exe#/dl.7z",
+            "hash": "sha512:39ae6281d2861950d12c48e5ab83586f9be9e560748117f833dcafe3d7f6805b9a2d421c693d5652fc402164269657d085cc960479c69e4ff56e4b48a7c4471d"
         },
         "32bit": {
-            "url": "https://archive.mozilla.org/pub/firefox/releases/112.0.1/win32-EME-free/en-US/Firefox%20Setup%20112.0.1.exe#/dl.7z",
-            "hash": "sha512:f8fd246b6ca977383e7d12d0fd31618584025d0b77be787b2d605ccadd2b03baee597057d28cfbc4ff1467a18dc992ea313bdd87a9b51644ad983ec94b58ff63"
+            "url": "https://archive.mozilla.org/pub/firefox/releases/121.0/win32-EME-free/en-US/Firefox%20Setup%20121.0.exe#/dl.7z",
+            "hash": "sha512:eebe4071c09249243fdad8b10e6689fc785cda4e8777e19866c9d556b35fe5729b8eeee74f93c7b6ba1d3159fd51d405b6e7a4232bddb3b15c79ed5ee3aab882"
         }
     },
     "extract_dir": "core",

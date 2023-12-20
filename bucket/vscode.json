@@ -1,5 +1,5 @@
 {
-    "version": "1.77.3",
+    "version": "1.85.1",
     "description": "Lightweight but powerful source code editor",
     "homepage": "https://code.visualstudio.com/",
     "license": {
@@ -14,16 +14,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://update.code.visualstudio.com/1.77.3/win32-x64-archive/stable#/dl.7z",
-            "hash": "ebabe716e168f5cc2d52608d00fe160da651a4a00c4c0164032e16eb2a4831eb"
-        },
-        "32bit": {
-            "url": "https://update.code.visualstudio.com/1.77.3/win32-archive/stable#/dl.7z",
-            "hash": "9c2df815fd5516723aeba46b60e100f040f8977549a7d989fcf47643982e7fe2"
+            "url": "https://update.code.visualstudio.com/1.85.1/win32-x64-archive/stable#/dl.7z",
+            "hash": "8520a2f67d4d8d0871320ff65f4145a0a2e6167234c7a8af37f1ef43eda9a0ef"
         },
         "arm64": {
-            "url": "https://update.code.visualstudio.com/1.77.3/win32-arm64-archive/stable#/dl.7z",
-            "hash": "ff0213bb5191eda61e3c8a0c36fe1dfa93fd55aad17799bc74933137bfcc2e5d"
+            "url": "https://update.code.visualstudio.com/1.85.1/win32-arm64-archive/stable#/dl.7z",
+            "hash": "8a4d1d4ad7395c8ef20e9e59dab44093f9cdfdf4bfefba528747e30841734a84"
         }
     },
     "env_add_path": "bin",
@@ -76,13 +72,6 @@
                 "hash": {
                     "url": "https://code.visualstudio.com/sha?build=stable",
                     "jsonpath": "$.products[?(@.platform.os == 'win32-x64-archive')].sha256hash"
-                }
-            },
-            "32bit": {
-                "url": "https://update.code.visualstudio.com/$version/win32-archive/stable#/dl.7z",
-                "hash": {
-                    "url": "https://code.visualstudio.com/sha?build=stable",
-                    "jsonpath": "$.products[?(@.platform.os == 'win32-archive')].sha256hash"
                 }
             },
             "arm64": {

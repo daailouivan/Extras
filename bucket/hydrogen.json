@@ -1,16 +1,16 @@
 {
-    "version": "1.2.0",
+    "version": "1.2.2",
     "description": "Advanced drum machine",
     "homepage": "http://hydrogen-music.org",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/hydrogen-music/hydrogen/releases/download/1.2.0/Hydrogen-1.2.0-win64.exe#/dl.7z",
-            "hash": "3877b7c9f203d5f648de0087ec316b229310447b281d013d2df496d3678e0234"
+            "url": "https://github.com/hydrogen-music/hydrogen/releases/download/1.2.2/Hydrogen-1.2.2-win64.exe#/dl.7z",
+            "hash": "ad338f8377ada34dff7d76efd2b5cd5c22c9a880202e04f81eb0573d9f093613"
         },
         "32bit": {
-            "url": "https://github.com/hydrogen-music/hydrogen/releases/download/1.2.0/Hydrogen-1.2.0-win32.exe#/dl.7z",
-            "hash": "4d721e548b1fcb5937e8f1114dee2d267bccb00abfc663b78887105522473c0b"
+            "url": "https://github.com/hydrogen-music/hydrogen/releases/download/1.2.2/Hydrogen-1.2.2-win32.exe#/dl.7z",
+            "hash": "1820af774e75022881205d57d4ff37b4c5a83afd7e1a9682390c1eefca1f024a"
         }
     },
     "pre_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall.exe\" -Recurse",

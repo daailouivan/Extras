@@ -1,12 +1,12 @@
 {
-    "version": "3.1.2",
+    "version": "3.1.7",
     "description": "PerfView is a CPU and memory performance-analysis tool",
     "homepage": "https://github.com/Microsoft/perfview",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/microsoft/perfview/releases/download/v3.1.2/PerfView.exe",
-            "hash": "1a2dd1451257c5498499d19f46e2e272ede5969e809d180eb52eb93f5a76c91e"
+            "url": "https://github.com/microsoft/perfview/releases/download/v3.1.7/PerfView.exe",
+            "hash": "2e20e6040f14f0c5d5fbcc12e61d287ff4f5816124312755a1d2192dba5e3e51"
         }
     },
     "bin": "PerfView.exe",

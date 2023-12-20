@@ -1,32 +1,31 @@
 {
-    "version": "1.77.3.23102",
-    "description": "Binary releases of VS Code without MS branding/telemetry/licensing.",
-    "homepage": "https://github.com/VSCodium/vscodium",
+    "version": "1.85.1.23348",
+    "description": "A community-driven, freely-licensed binary distribution of Microsoft’s editor VS Code.",
+    "homepage": "https://vscodium.com/",
     "license": "MIT",
     "notes": [
-        "Add VSCodium as a context menu option by running: 'reg import \"$dir\\install-context.reg\"'",
+        "Add VSCodium as a context menu option by running 'reg import \"$dir\\install-context.reg\"'",
         "For file associations, run 'reg import \"$dir\\install-associations.reg\"'"
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/VSCodium/vscodium/releases/download/1.77.3.23102/VSCodium-win32-x64-1.77.3.23102.zip",
-            "hash": "2bd11ded5610fb1a8354f5ef1b201cc6be8911fa181e00ffc01aad039968da94"
-        },
-        "32bit": {
-            "url": "https://github.com/VSCodium/vscodium/releases/download/1.77.3.23102/VSCodium-win32-ia32-1.77.3.23102.zip",
-            "hash": "efc7c46253cb0d568b23b61fb9c0e5fee8c8e99d88f7f1eeb679cf18ebadc67e"
+            "url": "https://github.com/VSCodium/vscodium/releases/download/1.85.1.23348/VSCodium-win32-x64-1.85.1.23348.zip",
+            "hash": "b1fa715d3f8130e99ac6934a695bc5189d4c86866adeb91438e02a08839b044e"
         },
         "arm64": {
-            "url": "https://github.com/VSCodium/vscodium/releases/download/1.77.3.23102/VSCodium-win32-arm64-1.77.3.23102.zip",
-            "hash": "10520e8371ed30d58f1e36a04b21af2eb174bc5e45ec7bf4cacc59462579aeb7"
+            "url": "https://github.com/VSCodium/vscodium/releases/download/1.85.1.23348/VSCodium-win32-arm64-1.85.1.23348.zip",
+            "hash": "1119764bef2a6a5888cd229ce9dc81a43643f32a7dd9f48d49d3ad7acea282ed"
         }
     },
-    "env_add_path": "bin",
-    "shortcuts": [
-        [
-            "VSCodium.exe",
-            "VSCodium"
-        ]
+    "pre_install": [
+        "$product_path = \"$dir\\resources\\app\\product.json\"",
+        "if (Test-Path -Path $product_path) {",
+        "    $product = Get-Content -Path $product_path -Raw -Encoding UTF8 | ConvertFrom-Json",
+        "    if (![string]::IsNullOrEmpty($product.updateUrl)) {",
+        "        Get-Content -Path $product_path | Where-Object {$_ -notmatch \"updateurl\"} | Set-Content temp.json",
+        "        Move-Item -Path temp.json -Destination $product_path -Force",
+        "    }",
+        "}"
     ],
     "post_install": [
         "$dirpath = \"$dir\".Replace('\\', '\\\\')",
@@ -57,15 +56,27 @@
         "    (Get-Content \"$extensions_file\") -replace '(?<=vscodium(/|\\\\\\\\)).*?(?=(/|\\\\\\\\)data(/|\\\\\\\\)extensions)', $version | Set-Content \"$extensions_file\"",
         "}"
     ],
+    "env_add_path": "bin",
+    "bin": [
+        [
+            "bin/codium.cmd",
+            "vscodium"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "VSCodium.exe",
+            "VSCodium"
+        ]
+    ],
     "persist": "data",
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/VSCodium/vscodium"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
                 "url": "https://github.com/VSCodium/vscodium/releases/download/$version/VSCodium-win32-x64-$version.zip"
-            },
-            "32bit": {
-                "url": "https://github.com/VSCodium/vscodium/releases/download/$version/VSCodium-win32-ia32-$version.zip"
             },
             "arm64": {
                 "url": "https://github.com/VSCodium/vscodium/releases/download/$version/VSCodium-win32-arm64-$version.zip"
